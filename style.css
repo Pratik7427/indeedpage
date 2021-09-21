@@ -1,0 +1,493 @@
+html,body {
+margin:0;
+padding:0;
+
+}
+html{
+font-family: Avenir Next,Arial,Roboto,Noto,sans-serif;
+}
+
+.active,.nav-item:hover{
+ box-shadow:0px 2px #2557a7 ;
+
+border-top: none;
+border-left:none;
+border-right:none;
+    
+   
+  
+   
+  
+  
+
+}
+.buttons{
+margin-left:-40px !important;
+}
+
+.nav-item{
+  font-size: 1rem;
+
+
+   
+}
+.nav-link{
+color:black !important;
+
+}
+
+
+
+.text{
+border: 1px solid black;
+padding: 8px ;
+
+height: 40px;
+border-radius: 8px;
+position:relative;
+}
+.innerinput{
+position: absolute;
+top:5px;
+left: 55px;
+border:none;
+width:calc(22vw - 35px) ;
+}
+.innerinput:focus{
+
+outline:none;
+}
+.icon-container{
+border:1px solid #e4e2e0;
+border-radius: 7px;
+padding-left:20px;
+padding-top:6px ;
+padding-bottom:6px;
+background-color: #e4e2e0;
+}
+ul li{
+list-style-type: none;
+display: inline;
+margin-left:10px;
+
+font-size: .875rem;
+}
+ol li{
+list-style-type: none;
+}
+.hov{
+text-align: center;
+
+}
+
+.act{
+border:3px solid #2557a7;
+
+border-top:none;
+border-left:none;
+border-right:none;
+
+
+}
+
+.iconlogo{
+position:absolute;
+left:355px;
+bottom:5px;
+
+background-color: white;
+border: none;
+
+}
+.card-body {
+font-size: 0.8rem;
+}
+.activa{
+border:0.7px solid rgb(146, 146, 216);
+}
+
+
+
+
+
+.stick{
+position: sticky ;
+top:20px;
+  
+
+}
+.love{
+background-color: rgba(228, 226, 224, 1);
+}
+
+.scrool {   
+       
+ 
+     overflow-y: auto;
+height: calc(100vh - 270px);
+    font-size: 0.8rem;
+            }
+.displaycard{
+display: none;
+}
+.btn-none{
+background-color: #e4e2e0;
+font-size: 0.8rem;
+padding: 10px 10px;
+}
+
+
+.btn-primary{
+background-color: #2557a7;
+font-size: 0.9rem;
+}
+.activebutton{
+padding-left:15px ;
+padding-right:15px ;
+border-radius: 8px;
+padding:6px 20px;
+background-color: transparent;
+border:0.8px solid black;
+color: #2557a7;
+font-weight: 700;
+
+}
+.signin{
+color:#2557a7 ;
+font-weight: 500;
+
+}
+.borde{
+border-right:1px solid black;
+
+
+}
+.last{
+background-color: #f3f2f1;
+}
+
+
+.container-fluid{
+border-bottom: 1px solid #e4e2e0;;
+}
+.page-link{
+background-color:#e4e2e0;
+border-radius: 8px;
+padding: 8px 13px;
+font-size: 1.1rem;
+color: black;
+}
+
+.lastsearch{
+display: inline-block;
+padding:10px 10px;
+border-radius: 10px;
+background-color:#e4e2e0;
+font-weight: 500;
+font-size:0.9rem
+}
+.lastsearch:hover{
+background-color:#c7c3bb;
+cursor: pointer;
+}
+.anchorr{
+position: relative;
+left:17px;
+padding-top:10px;
+font-size:0.9rem;
+font-weight: 500;
+}
+.anchorr a{
+text-decoration: none;
+}
+
+.searchicon{
+position:absolute;
+left: 90%;
+top:10px;
+
+
+}
+.clickable{
+margin-left:29rem;
+cursor: pointer;
+}
+section ul li{
+cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+.autocomplete-items div {
+ 
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important; 
+  color: #ffffff; 
+}
+
+
+
+
+
+
+
+
+#result {
+  border: 1px dotted #ccc;
+  padding: 3px;
+}
+#result ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+#result ul li {
+  padding: 5px 0;
+}
+#result ul li:hover {
+  background: #eee;
+}
+
+
+
+.btn-group{
+position:relative;
+}
+.selectopt{
+position: absolute;
+top:5px;
+width: 99%;
+display:none;
+opacity: 1;
+
+}
+@media (min-width: 990px) {
+.overflo{
+margin-left:140px;
+}
+.closebtn{
+display:none;
+}
+.signup{
+display: none;
+}
+.iconheart{
+display:none ;
+}
+}
+
+@media (max-width: 763px) {
+.iconlogo{
+position: absolute;
+left:106% !important;
+
+}
+.displaynone{
+display:none !important;
+
+}
+.displaycard{
+display:none !important;
+}
+body{
+overflow-x:hidden;
+
+}
+
+}
+
+
+
+
+
+
+
+@media (max-width: 995px) {
+.iconlogo{
+position: absolute;
+left: 122%;
+}
+.searchicon{
+left:20px;
+}
+.clickable{
+position:absolute;
+left:-90px !important;
+}
+.over{
+overflow-x: scrool;
+overflow-y:hidden;
+white-space: nowrap;
+position:relative;
+
+}
+.button[type="button"]{
+display:none;
+}
+.selectopt{
+display:block;
+
+padding:12px 20px;
+border-radius: 8px;
+background-color:#e4e2e0 ;
+font-size:15px;
+border:none;
+
+
+
+}
+
+.option{
+display:none !important;
+}
+
+
+.innerinput{
+width: 50%;
+}
+.text {
+border:0.1px solid rgb(223, 198, 198);
+ 
+
+}
+.no{
+display:none;
+}
+
+.text h6 {
+display: none;
+
+}
+
+
+.text1{
+border-bottom-left-radius:  2px;
+border-bottom-right-radius:2px ;
+border-bottom: none;
+}
+
+.text2{
+border-top-left-radius:  2px;
+border-top-right-radius:  2px;
+
+}
+.navbar-collapse {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+.close{
+ position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+.close a{
+text-decoration: none;
+}
+.borde{
+border:none;
+}
+
+.nonetxt{
+text-decoration: none;
+color: white;
+}
+.signup{
+background-color: #2557a7;
+
+border-radius: 8px;
+padding:3px 2px;
+padding-right:20px;
+
+
+}
+.borde{
+display: none;
+}
+.drop{
+display: none;
+}
+.iconheart  {
+
+position:absolute;
+top: 10px;
+left:90%;
+cursor: pointer;
+
+}
+
+
+}
+
+
+
+@media (max-width: 1200px) {
+ .iconlogo{
+
+margin-left: -70px;
+}
+.clickable{
+margin-left: 360px;
+}
+}
